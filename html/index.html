@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/flower4-icon.png">
+    <title>Floralis Garden</title>
+</head>
+
+<body>
+    <header>
+        <div id="score"><span id="pts">0</span>pts</div>
+        <div id="menu">
+            <abbr id="menu-btn" tittle="Open/Close Menu">
+                <img src="../img/left-arrow-icon.png" draggable="false">
+            </abbr>
+            <div id="menu-nav">
+                <abbr id="tutorial-acess" class="menu-nav-btn" title="Tutorial">
+                    <img src="../img/tutorial-icon.png" draggable="false">
+                </abbr>
+                <abbr id="store-acess" class="menu-nav-btn" title="Tutorial">
+                    <img src="../img/store-icon.png" draggable="false">
+                </abbr>
+            </div>
+        </div>
+    </header>
+
+    <aside>
+        <abbr id="watering" class="sidebar-btn" title="Regador">
+            <img src="../img/watering-icon.png" draggable="false">
+        </abbr>
+        <abbr id="shovel" class="sidebar-btn" title="Pá">
+            <img src="../img/shovel-icon.png" draggable="false">
+        </abbr>
+        <abbr id="flower1" class="sidebar-btn" title="Flor 1">
+            <img src="../img/flower1-icon.png" draggable="false">
+        </abbr>
+    </aside>
+
+    <main>
+        <div class="slot"></div>
+        <div class="slot"></div>
+        <div class="slot"></div>
+        <div class="slot"></div>
+        <div class="slot"></div>
+        <div class="slot"></div>
+        <div class="slot"></div>
+        <div class="slot"></div>
+        <div class="slot"></div>
+    </main>
+
+    <section id="menu-window">
+        <div id="tutorial" class="window-box">
+            <h2 id="tutorial-tittle">Como Jogar</h2>
+
+            <div>
+                <p><b>1º Escolha uma Flor: </b> Selecione a flor desejada para plantar.</p>
+
+                <p><b>2º Plante a Flor: </b> Plante a flor clicando no espaço escolhido.</p>
+
+                <p><b>3º Regue a Flor: </b> Use o regador e espere até que ela cresça completamente.</p>
+
+                <p><b>4º Colha a Flor: </b>Por último, use pá para colher a flor e receber pontos.</p>
+
+                <p><b>OBS: </b>Com os pontos obtidos é possível comprar melhorias na loja.</p>
+            </div>
+        </div>
+
+        <div id="store" class="window-box">
+            <h2 id="store-tittle">Melhorias</h2>
+
+            <div id="upgrade-flower" class="store-item">
+                <h2>Semente 1</h2>
+                <p>Plante esta semente em seu jardim e ela crescerá mais bela e forte que a anterior</p>
+                <div>
+                    <h3>90pts</h3>
+                    <button class="upgrade-btn">Comprar</button>
+                </div>
+            </div>
+
+            <div id="upgrade-garden" class="store-item">
+                <h2>Jardim 1</h2>
+                <p>Expanda seu jardim e ganhe mais espaço para plantar e cultivar mais flores.</p>
+                <div>
+                    <h3>180pts</h3>
+                    <button class="upgrade-btn">Comprar</button>
+                </div>
+            </div>
+
+            <div id="upgrade-grow" class="store-item">
+                <h2>Adubo 1</h2>
+                <p>Acelera o crescimento das flores plantadas garantindo resultados mais rápidos.</p>
+                <div>
+                    <h3>180pts</h3>
+                    <button class="upgrade-btn">Comprar</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="../js/main.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
+
+</html>
